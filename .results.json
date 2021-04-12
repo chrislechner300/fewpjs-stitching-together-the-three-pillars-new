@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-04-12T16:28:48.168Z",
+    "end": "2021-04-12T16:28:56.124Z",
+    "duration": 7956
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "\"before all\" hook",
+      "duration": 7944,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /home/chris/Development/code/js/fewpjs-stitching-together-the-three-pillars-new/node_modules/jsdom/lib/jsdom.js:312:18\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)",
+        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
+    }
+  ],
+  "passes": []
+}
